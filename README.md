@@ -17,9 +17,7 @@
 
 - ⚡ Fun fact **I love finance**
 
-# Latest Blog posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -41,3 +39,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aniketvish0&show_icons=true&locale=en" alt="aniketvish0" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aniketvish0&" alt="aniketvish0" /></p>
+
+# Latest Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
