@@ -1,17 +1,17 @@
 name: Latest blog post workflow
 on: 
   schedule:
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Allows manual triggering
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch:
 permissions:
-  contents: write # Grants write access to update README
+  contents: write
 jobs: 
   update-readme-with-blog: 
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps: 
-      - uses: actions/checkout@v4 # Updated to latest version
-      - uses: gautamkrishnar/blog-post-workflow@v1 # Use a specific version for stability
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
         with: 
           max_post_count: "4"
           feed_list: "https://aniketvish.hashnode.dev/rss.xml"
